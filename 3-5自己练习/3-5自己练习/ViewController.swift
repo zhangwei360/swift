@@ -99,3 +99,18 @@ class ViewController: UIViewController {
 
 }
 
+Crashed: com.apple.root.default-qos
+0  FMW                            0x10058baf4 ListViewController.getDateIndex(_:) (<compiler-generated>)
+1  FMW                            0x10058c77c closure #2 in closure #2 in ListViewController.updateCollectionViewData(_:) (ListViewController.swift:394)
+2  FMW                            0x100517860 thunk for @escaping @callee_guaranteed (@guaranteed PHAsset, @unowned Int, @unowned UnsafeMutablePointer<ObjCBool>) -> () (<compiler-generated>)
+3  CoreFoundation                 0x18f2d7cdc __NSArrayEnumerate + 412
+4  Photos                         0x19dcef384 -[PHFetchResult enumerateObjectsUsingBlock:] + 80
+5  FMW                            0x10058c588 closure #2 in ListViewController.updateCollectionViewData(_:) (<compiler-generated>)
+6  FMW                            0x100556d30 thunk for @escaping @callee_guaranteed () -> () (<compiler-generated>)
+7  libdispatch.dylib              0x18ed38a38 _dispatch_call_block_and_release + 24
+8  libdispatch.dylib              0x18ed397d4 _dispatch_client_callout + 16
+9  libdispatch.dylib              0x18ed1089c _dispatch_queue_override_invoke + 668
+10 libdispatch.dylib              0x18ed1c9d4 _dispatch_root_queue_drain + 340
+11 libdispatch.dylib              0x18ed1d248 _dispatch_worker_thread2 + 116
+12 libsystem_pthread.dylib        0x18ef191b4 _pthread_wqthread + 464
+13 libsystem_pthread.dylib        0x18ef1bcd4 start_wqthread + 4
