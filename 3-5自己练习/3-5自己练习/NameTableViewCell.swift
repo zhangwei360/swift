@@ -18,5 +18,5 @@ class NameTableViewCell: UITableViewCell {
     }
 
    
-
+https://stackoverflow.com/questions/42723130/crashed-com-apple-root-default-qos
 }
