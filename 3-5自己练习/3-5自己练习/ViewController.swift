@@ -114,3 +114,6 @@ Crashed: com.apple.root.default-qos
 11 libdispatch.dylib              0x18ed1d248 _dispatch_worker_thread2 + 116
 12 libsystem_pthread.dylib        0x18ef191b4 _pthread_wqthread + 464
 13 libsystem_pthread.dylib        0x18ef1bcd4 start_wqthread + 4
+
+
+appleDeveloper-es1-member@ml.njk.co.jp	member7shikkeGaSugoi
